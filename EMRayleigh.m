@@ -51,7 +51,4 @@ function [ y ] = raleigh_dist(x,mu)
 %Rayleigh_DIST function for Rayleigh distribution
     y=(x/mu).*exp((-x.^2)/(2*mu));
 end
-
-
-
 end
