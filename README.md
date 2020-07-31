@@ -6,5 +6,7 @@ The provided test script shows how to use the function EMRayleigh to plot the cu
 <p align="center">
 <img src="Results/CumulativeCoalescenceCurves_Rayleigh.png" width="500">
 </p>  
+<p align="center">
 Fig: Coalescence time distributions for the sample data fit to a Rayleigh distribution.  
+</p>  
 
