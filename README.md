@@ -3,5 +3,8 @@ Matlab scripts for plotting the cumulative coalescence time distributions and fi
 
 The provided test script shows how to use the function EMRayleigh to plot the cumulative coalescence time distributions and fit it to Rayleigh distribution. An output obtained with the provided sample data is shown below:
 
+<p align="center">
 <img src="Results/CumulativeCoalescenceCurves_Rayleigh.png" width="500">
 Fig: Coalescence time distributions for the sample data fit to a Rayleigh distribution.  
+</p>  
+
