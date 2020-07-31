@@ -20,10 +20,7 @@ ClusterLikelihood = zeros(K, length(data));
 
 % Initialize the variables in the calculation:
 mixRatio(:,1)=1/K;
-muEstimate(1:2,1)=[(min(data)+ max(data))/2,max(data)];
-for i=3:K  %Might need to initialize the scale parameter better:
-    muEstimate(i,1)=(i-2)* (min(data)+ max(data))/(K-1);
-end
+muEstimate(:,1) = 10.^(logspace(log10(min(data)),log10(max(data)),K));
 
 %EM algorithm:
 for i =1:itr
